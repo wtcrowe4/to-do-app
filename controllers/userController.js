@@ -1,5 +1,3 @@
-//Create user controller
-
 var User = require('../models/userModel'); 
 var bcrypt = require('bcryptjs');
 var jwt = require('jsonwebtoken');
