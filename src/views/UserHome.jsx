@@ -4,7 +4,7 @@ import React from "react";
 const UserHome = () => {
     return (
         <div className="App-body">
-        <h1>User Specific To Do List</h1>
+        <h2>User Specific To Do List</h2>
         </div>
     );
 };

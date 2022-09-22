@@ -13,6 +13,11 @@
   color: white;
 }
 
+h2 {
+  font-size: 1.5rem;
+  color: #282c34;
+}
+
 .navbarlink {
   color: white;
   text-decoration: none;
