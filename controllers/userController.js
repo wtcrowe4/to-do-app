@@ -1,13 +1,13 @@
-var User = require('../models/userModel'); 
-var bcrypt = require('bcryptjs');
-var jwt = require('jsonwebtoken');
-var config = require('../config');
+const User = require('../models/userModel'); 
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
+const config = require('../config');
 
 //Create user
 const createUser = (req, res) => {
-    var username = req.body.username;
-    var password = req.body.password;
-    var user = new User({
+    const username = req.body.username;
+    const password = req.body.password;
+    const user = new User({
         username: username,
         password: password
     });
