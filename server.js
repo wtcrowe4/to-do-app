@@ -12,8 +12,7 @@ mongoose.connect(mongoURI, () => console.log(`MongoDB Connected at ${mongoURI}`)
 
 //Middleware
 app.use(express.json());
-app.use(express.urlencoded({extended: false}));
-app.use(express.static('public'));
+
 
 //Routes
 
